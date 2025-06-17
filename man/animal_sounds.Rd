@@ -4,20 +4,23 @@
 \alias{animal_sounds}
 \title{Retrieve animal sounds}
 \usage{
-animal_sounds(animal, sound)
+animal_sounds(animal, sound, country)
 }
 \arguments{
 \item{animal}{A character string representing the animal}
 
 \item{sound}{A character string representing the sound the animal makes}
+
+\item{country}{A character string representing the country where the animal is found}
 }
 \value{
-A character string in the format "The \link{animal} says \link{sound}!"
+A character string in the format "The \link{animal} in \link{country} says \link{sound}!"
 }
 \description{
 This function takes an animal and a sound as inputs and returns a string
 }
 \examples{
-animal_sounds("dog", "woof")
-animal_sounds("cat", "meow")
+animal_sounds("dog","UK", "woof")
+animal_sounds("cat", "USA", "meow")
+animal_sounds("cow", "Norway", "møø")
 }
