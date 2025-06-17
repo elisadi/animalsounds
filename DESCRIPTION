@@ -2,7 +2,7 @@ Package: animalsounds
 Title: Generate Animal Sound
 Version: 0.0.0.9000
 Authors@R: 
-    person("Elisabeth", "Dietz", , "first.last@example.com", role = c("aut", "cre"))
+    person("Elisabeth", "Lastname", , "first.last@example.com", role = c("aut", "cre"))
 Description: Creating a sentence describing an animal sound.
 License: `use_mit_license()`
 Encoding: UTF-8
